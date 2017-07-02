@@ -1,0 +1,23 @@
+{
+  "name": "avito-monitoring",
+  "version": "1.0.0",
+  "description": "Checks for new adverts at Avito.ru",
+  "main": "index.js",
+  "author": "cr1msaun",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.1",
+    "deep-equal": "^1.0.1",
+    "isemail": "^3.0.0",
+    "mailgun-js": "^0.11.2",
+    "moment": "^2.18.1",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1",
+    "shorthash": "^0.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.6.1"
+  }
+}
